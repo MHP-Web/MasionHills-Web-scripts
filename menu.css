@@ -34,9 +34,7 @@
 } */
 .hambuger_line_wrap:hover .hambuger_line::before {
     width: 0%;
-    /* right: -50%; */
 }
 .hambuger_line_wrap:hover .hambuger_line::after {
     width: 100%;
-    /* left: 0%; */
 }
