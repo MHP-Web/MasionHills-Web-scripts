@@ -25,12 +25,12 @@
     transition: all 0.2s ease-in-out;
     transition-delay: 0.1s;
 }
-.hambuger_line:nth-child(2)::before {
+/* .hambuger_line:nth-child(2)::before {
     transition-delay: 0.1s;
 }
 .hambuger_line:nth-child(2)::after {
     transition-delay: 0.2s;
-}
+} */
 .hambuger_line_wrap:hover .hambuger_line::before {
     width: 0%;
     right: -50%;
