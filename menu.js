@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
   const contents = document.querySelectorAll("[data-element='menu-content']");
   const menuPicture = document.querySelector("[data-element='menu-picture']");
   const whatsappModal = document.querySelector("[data-element='whatsapp-btn']");
-  const hamburgerLines = gsap.utils.toArray(".hambuger_line");
+  const hamburgerLines = gsap.utils.toArray(".hambuger_line::after");
   const links = menu
     .querySelector(".top_nav_heading_wrap")
     .querySelectorAll("a");
@@ -163,34 +163,34 @@ window.addEventListener("load", () => {
     }
   });
 
-  hamburgerBtn.addEventListener("mouseover", () => {
-    if (!open) {
-      gsap.to(hamburgerBtn.querySelector(".hambuger_line:first-child"), {
-        x: 10,
-        duration: 0.3,
-        ease: "menu-modal-open",
-      });
-      gsap.to(hamburgerBtn.querySelector(".hambuger_line:last-child"), {
-        x: -3,
-        duration: 0.3,
-        ease: "menu-modal-open",
-      });
-    }
-  });
-  hamburgerBtn.addEventListener("mouseleave", () => {
-    if (!open) {
-      gsap.to(hamburgerBtn.querySelector(".hambuger_line:first-child"), {
-        x: 0,
-        duration: 0.3,
-        ease: "menu-modal-open",
-      });
-      gsap.to(hamburgerBtn.querySelector(".hambuger_line:last-child"), {
-        x: 0,
-        duration: 0.3,
-        ease: "menu-modal-open",
-      });
-    }
-  });
+  // hamburgerBtn.addEventListener("mouseover", () => {
+  //   if (!open) {
+  //     gsap.to(hamburgerBtn.querySelector(".hambuger_line:first-child"), {
+  //       x: 10,
+  //       duration: 0.3,
+  //       ease: "menu-modal-open",
+  //     });
+  //     gsap.to(hamburgerBtn.querySelector(".hambuger_line:last-child"), {
+  //       x: -3,
+  //       duration: 0.3,
+  //       ease: "menu-modal-open",
+  //     });
+  //   }
+  // });
+  // hamburgerBtn.addEventListener("mouseleave", () => {
+  //   if (!open) {
+  //     gsap.to(hamburgerBtn.querySelector(".hambuger_line:first-child"), {
+  //       x: 0,
+  //       duration: 0.3,
+  //       ease: "menu-modal-open",
+  //     });
+  //     gsap.to(hamburgerBtn.querySelector(".hambuger_line:last-child"), {
+  //       x: 0,
+  //       duration: 0.3,
+  //       ease: "menu-modal-open",
+  //     });
+  //   }
+  // });
   overlay.addEventListener("click", closeMenu);
   //sound play
   // Attach playSound to element with id "play-sound"

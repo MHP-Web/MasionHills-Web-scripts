@@ -1,6 +1,7 @@
 .hambuger_line {
     position: relative;
     background-color: transparent;
+    overflow: hidden;
 }
 .hambuger_line::before {
     position: absolute;
