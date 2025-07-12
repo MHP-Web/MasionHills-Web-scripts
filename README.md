@@ -31,6 +31,8 @@
 
 [https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/menu.js](https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/menu.js)
 
+[https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/menu.css](https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/menu.css)
+
 [https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/partners.js](https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/partners.js)
 
 [https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/preloader.css](https://cdn.jsdelivr.net/gh/MHP-Web/MasionHills-Web-scripts@main/preloader.css)

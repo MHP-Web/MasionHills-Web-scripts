@@ -1,0 +1,34 @@
+.hambuger_line {
+    position: relative;
+    background-color: transparent;
+}
+.hambuger_line::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--swatch--light-gold);
+    top: 0;
+    left: auto;
+    right: 0;
+    transition: all 0.2s ease-in-out;
+}
+.hambuger_line::after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: var(--swatch--light-gold);
+    top: 0;
+    left: -100%;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 0.1s;
+}
+.hambuger_line_wrap:hover .hambuger_line::before {
+    width: 0%;
+    right: -50%;
+}
+.hambuger_line_wrap:hover .hambuger_line::after {
+    width: 100%;
+    left: 0%;
+}
