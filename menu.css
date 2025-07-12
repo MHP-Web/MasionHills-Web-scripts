@@ -21,7 +21,8 @@
     height: 100%;
     background-color: var(--swatch--light-gold);
     top: 0;
-    left: -100%;
+    left: 0%;
+    right: auto;
     transition: all 0.2s ease-in-out;
     transition-delay: 0.1s;
 }
@@ -33,9 +34,9 @@
 } */
 .hambuger_line_wrap:hover .hambuger_line::before {
     width: 0%;
-    right: -50%;
+    /* right: -50%; */
 }
 .hambuger_line_wrap:hover .hambuger_line::after {
     width: 100%;
-    left: 0%;
+    /* left: 0%; */
 }
